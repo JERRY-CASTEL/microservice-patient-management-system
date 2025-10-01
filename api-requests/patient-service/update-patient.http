@@ -1,0 +1,15 @@
+### Updatees an existing patient entity
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174003
+Content-Type: application/json
+
+
+
+{
+  "name": "Bob",
+  "email": "bob.brown@example.com",
+  "address": "789 Willow St, Springfield",
+  "dateOfBirth": "1987-10-17"
+}
+
+###
